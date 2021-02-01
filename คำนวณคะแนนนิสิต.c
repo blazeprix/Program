@@ -11,7 +11,7 @@ void main()
 		for(m = 1; m <= noscore; m++)
 		{
 			scanf("%f", &score);
-			printf("%f", score);
+			printf("%f\n", score);
 			total = total + score;
 		}
 		average = total / noscore;
